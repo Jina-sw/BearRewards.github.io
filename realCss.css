@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bitter:wght@500&family=Bree+Serif&family=Inter:wght@100;200;300;400;500&family=Outfit:wght@100;200;300;400;500&family=Righteous&display=swap');
+
+
+* { /* asterisk means all elements of html*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #faecde;
+    
+}
+
+h1 {
+    font-family:"Outfit";
+    font-size:70px;
+    color: rgb(54, 41, 41);
+    padding : 2rem;
+
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-family:"Outfit";
+}
+
+#title {
+    font-family: "Arvo";
+    font-size: 40px;
+}
+
+span {
+    font-family: "Righteous";
+    font-size: 20px;
+    font-weight: 200;
+}
+
+ol {
+    font-family: "Arvo";
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+li {
+    padding : 0.5rem;
+}
+
+#myCanvas {
+    border: 4px solid rgb(84, 71, 70); 
+    background-color:rgb(196, 172, 159);
+   
+} 
